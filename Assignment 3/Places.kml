@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+
+
+<Folder><name>USC_Annenberg</name>
+<Placemark><name>Dept_Journalism</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864185,34.0220838</coordinates></Point>
+</Placemark>
+<Placemark><name>Dept_Comm</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28593048839082,34.02200380896999</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder><name>USC_Thorton</name>
+<Placemark><name>Music Complex</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28593772761207,34.0229088129425</coordinates></Point>
+</Placemark>
+<Placemark><name>Ramo Hall Music</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28522298242859,34.02272078005779</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder><name>USC_Cinematic</name>
+<Placemark><name>Dept_Production</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2862929,34.0235143</coordinates></Point>
+</Placemark>
+<Placemark><name>Dept_IMGD</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864906,34.0235476</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder><name>USC_Viterbi</name>
+<Placemark><name>Dept_Aerospace</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2886076,34.0206282</coordinates></Point>
+</Placemark>
+<Placemark><name>Dept_CompSci</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2892182,34.0194928</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder><name>USC_ArchArts</name>
+<Placemark><name>Design Studio</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2875228,34.0190509</coordinates></Point>
+</Placemark>
+<Placemark><name>Dept_Arch</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28805549114747,34.01928087130881</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Folder><name>USC_Marshall</name>
+<Placemark><name>Dept_DSO</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2857544,34.0187756</coordinates></Point>
+</Placemark>
+<Placemark><name>Dept_Marketing</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2852662,34.018718</coordinates></Point>
+</Placemark>
+</Folder>
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28837566,34.02965886</coordinates></Point>
+</Placemark>
+
+
+<!-- Convex Hull -->
+<Placemark>
+    <name>The Pentagon</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+              -118.2852662,34.018718,50
+              -118.2857544,34.0187756,50
+              -118.2875228,34.0190509,50
+              -118.2892182,34.0194928,50
+              -118.28837566,34.02965886,50
+              -118.28522298242859,34.02272078005779,50
+              -118.2852662,34.018718,50
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+</Placemark>
+
+
+<!-- 4 nearest Neighbours -->
+<Placemark>
+<name>Neighbour1</name>
+<description>Home - Dept_IMGD</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+  <extrude>1</extrude>
+  <altitudeMode>relativeToGround</altitudeMode>
+  <coordinates>-118.28837566,34.02965886,60 -118.2864906,34.0235476,60</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+
+
+<name>Neighbour2</name>
+<description>Home - Dept_Production</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+  <extrude>1</extrude>
+  <altitudeMode>relativeToGround</altitudeMode>
+  <coordinates>-118.28837566,34.02965886,60 -118.2862929,34.0235143,60</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour3</name>
+<description>Home - Music Complex</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+  <extrude>1</extrude>
+  <altitudeMode>relativeToGround</altitudeMode>
+  <coordinates>-118.28837566,34.02965886,50 -118.28593772761207,34.0229088129425,50</coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>Neighbour4</name>
+<description>Home - Ramo Hall Music</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+  <extrude>1</extrude>
+  <altitudeMode>relativeToGround</altitudeMode>
+  <coordinates>-118.28837566,34.02965886,50 -118.28522298242859,34.02272078005779,50</coordinates>
+</LineString>
+</Placemark>
+
+</Document></kml>
+
